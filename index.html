@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>SGT Investment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0f1a;
+      color: #ffffff;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0b0f1a, #111a2e);
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 26px;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: gold;
+    }
+
+    .hero {
+      padding: 120px 40px;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a') center/cover;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    section {
+      padding: 80px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #141b2d;
+      padding: 25px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #05070d;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    button {
+      background: gold;
+      color: black;
+      padding: 14px 30px;
+      border: none;
+      border-radius: 30px;
+      margin-top: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #e6c200;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SGT Investment</h1>
+  <nav>
+    <a href="#om">Om oss</a>
+    <a href="#tjanster">Tjänster</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Investera för framtiden</h2>
+  <p>SGT Investment hjälper dig skapa långsiktig tillväxt genom professionella investeringsstrategier och personlig rådgivning.</p>
+  <button>Kontakta oss</button>
+</div>
+
+<section id="om">
+  <h2>Om SGT Investment</h2>
+  <p>
+    SGT Investment är ett modernt investeringsbolag som fokuserar på att skapa värde för sina kunder genom långsiktiga och ansvarsfulla investeringar.
+  </p>
+</section>
+
+<section id="tjanster">
+  <h2>Våra tjänster</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Portföljhantering</h3>
+      <p>Skräddarsydd förvaltning anpassad efter din riskprofil.</p>
+    </div>
+    <div class="card">
+      <h3>Investeringsrådgivning</h3>
+      <p>Strategiskt stöd för hållbara ekonomiska beslut.</p>
+    </div>
+    <div class="card">
+      <h3>Marknadsanalys</h3>
+      <p>Djupgående analyser av marknadens möjligheter.</p>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt">
+  <h2>Kontakta oss</h2>
+  <p>Email: info@sgtinvestment.se<br>
+     Telefon: 08-000 000 00<br>
+     Stockholm, Sverige</p>
+</section>
+
+<footer>
+  © 2026 SGT Investment. Alla rättigheter förbehållna.
+</footer>
+
+</body>
+</html>
